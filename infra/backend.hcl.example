@@ -1,0 +1,4 @@
+# 이 파일을 backend.hcl로 복사한 뒤 본인 값으로 바꾸세요.
+# 사용법: terraform init -backend-config=../backend.hcl
+bucket  = "security-lab-tfstate-<AWS_ACCOUNT_ID>-ap-northeast-2"
+profile = "<AWS_PROFILE>"

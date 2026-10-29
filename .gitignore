@@ -1,0 +1,37 @@
+# Terraform 다운로드 및 작업 파일
+**/.terraform/*
+
+# 상태 파일
+*.tfstate
+*.tfstate.*
+
+# 저장된 실행 계획
+*.tfplan
+
+# 로컬 변수 및 비밀값
+*.tfvars
+*.tfvars.json
+.env
+.env.*
+
+# 오류 로그
+crash.log
+crash.*.log
+
+# Terraform 백엔드 설정 (본인 값)
+backend.hcl
+
+# 로컬 전용 매니페스트 (본인 계정 이미지 URI 포함)
+*.local.yaml
+
+# 인증서, kubeconfig
+*.pem
+kubeconfig
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# 도구 설정
+.claude/
